@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [LoginTestCases]">
+  <test name="login(failed)">
+    <classes>
+      <class name="com.starv.tbb.testcase.BaiduTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testBaidu" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.starv.tbb.testcase.BaiduTest -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [LoginTestCases] -->

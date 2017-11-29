@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenarios>
+	<scenario name ="正常登陆用例">
+		<parameters>
+			<parameter name="url" value="http://192.168.10.9/store/login.html" />
+			<parameter name="userName"  value="zhigaoad"/>   
+		  	<parameter name="passwd"  value="123456"/> 
+		</parameters>
+	</scenario>
+</scenarios>

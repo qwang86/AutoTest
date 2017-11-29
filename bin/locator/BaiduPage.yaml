@@ -1,0 +1,6 @@
+kW_input:
+  type:id
+  value:kw
+search_button:
+  type:id
+  value:su

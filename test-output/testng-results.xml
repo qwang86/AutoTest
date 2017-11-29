@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test" duration-ms="0" started-at="2017-11-29T09:53:34Z" finished-at="2017-11-29T09:53:34Z">
+    <groups>
+    </groups>
+  </suite> <!-- test -->
+  <suite name="LoginTestCases" duration-ms="3200" started-at="2017-11-29T09:53:28Z" finished-at="2017-11-29T09:53:32Z">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="3200" started-at="2017-11-29T09:53:28Z" finished-at="2017-11-29T09:53:32Z">
+      <class name="com.starv.tbb.testcase.BaiduTest">
+        <test-method status="PASS" signature="testBaidu(java.util.HashMap)[pri:0, instance:com.starv.tbb.testcase.BaiduTest@47caedad]" name="testBaidu" duration-ms="953" started-at="2017-11-29T17:53:30Z" data-provider="dataProvider" finished-at="2017-11-29T17:53:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{kw=taobobo, url=http://www.baidu.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaidu -->
+        <test-method status="PASS" signature="testBaidu(java.util.HashMap)[pri:0, instance:com.starv.tbb.testcase.BaiduTest@47caedad]" name="testBaidu" duration-ms="731" started-at="2017-11-29T17:53:31Z" data-provider="dataProvider" finished-at="2017-11-29T17:53:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{kw=自动化测试, url=http://www.baidu.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaidu -->
+      </class> <!-- com.starv.tbb.testcase.BaiduTest -->
+      <class name="com.starv.tbb.testcase.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.starv.tbb.testcase.LoginTest@4f0f2942]" name="setUp" is-config="true" duration-ms="1143" started-at="2017-11-29T17:53:27Z" finished-at="2017-11-29T17:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginData(java.util.HashMap)[pri:0, instance:com.starv.tbb.testcase.LoginTest@4f0f2942]" name="loginData" duration-ms="1425" started-at="2017-11-29T17:53:28Z" data-provider="dataProvider" finished-at="2017-11-29T17:53:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{userName=zhigaoad, passwd=123456, url=http://192.168.10.9/store/login.html}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.starv.tbb.testcase.LoginTest@4f0f2942]" name="tearDown" is-config="true" duration-ms="2807" started-at="2017-11-29T17:53:32Z" finished-at="2017-11-29T17:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.starv.tbb.testcase.LoginTest -->
+    </test> <!-- login -->
+  </suite> <!-- LoginTestCases -->
+</testng-results>

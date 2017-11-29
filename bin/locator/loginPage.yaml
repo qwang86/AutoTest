@@ -1,0 +1,12 @@
+userN_input:
+  type:name
+  value:username
+passwd_input:
+  type:name
+  value:password
+validcode_input:
+  type:name
+  value:validcode
+login_button:
+  type:name
+  value:_login

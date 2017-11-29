@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="LoginTestCases" verbose="10">  
+	<test name="login">
+      <classes>
+      	<class name="com.starv.tbb.testcase.LoginTest" >
+			<methods>
+            	<include name="loginData"></include>
+       		</methods>
+       	</class>
+       	<class name="com.starv.tbb.testcase.BaiduTest" >
+			<methods>
+            	<include name="testBaidu"></include>
+       		</methods>
+       	</class>
+      </classes>
+    </test>
+</suite>
